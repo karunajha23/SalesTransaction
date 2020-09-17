@@ -1,9 +1,9 @@
-F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.csprojAssemblyReference.cache
-F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.AssemblyInfoInputs.cache
-F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.AssemblyInfo.cs
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.deps.json
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\bin\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
+F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.csprojAssemblyReference.cache
+F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.AssemblyInfoInputs.cache
+F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.AssemblyInfo.cs
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.csproj.CoreCompileInputs.cache
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.dll
 F:\SalesTransactionUI\SalesTransaction.Application.DataAccess\obj\Debug\netcoreapp3.1\SalesTransaction.Application.DataAccess.pdb
