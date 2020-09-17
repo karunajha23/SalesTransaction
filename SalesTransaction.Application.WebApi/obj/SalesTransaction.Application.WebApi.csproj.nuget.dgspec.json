@@ -1,0 +1,252 @@
+{
+  "format": 1,
+  "restore": {
+    "F:\\SalesTransactionUI\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj": {}
+  },
+  "projects": {
+    "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+        "projectName": "SalesTransaction.Application.DataAccess",
+        "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Karuna\\.nuget\\packages\\",
+        "outputPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
+        "projectName": "SalesTransaction.Application.Model",
+        "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj",
+        "packagesPath": "C:\\Users\\Karuna\\.nuget\\packages\\",
+        "outputPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
+        "projectName": "SalesTransaction.Application.Service",
+        "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj",
+        "packagesPath": "C:\\Users\\Karuna\\.nuget\\packages\\",
+        "outputPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj": {
+                "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.DataAccess\\SalesTransaction.Application.DataAccess.csproj"
+              },
+              "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj": {
+                "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Model\\SalesTransaction.Application.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\SalesTransactionUI\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\SalesTransactionUI\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
+        "projectName": "SalesTransaction.Application.WebApi",
+        "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.WebApi\\SalesTransaction.Application.WebApi.csproj",
+        "packagesPath": "C:\\Users\\Karuna\\.nuget\\packages\\",
+        "outputPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Karuna\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj": {
+                "projectPath": "F:\\SalesTransactionUI\\SalesTransaction.Application.Service\\SalesTransaction.Application.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
